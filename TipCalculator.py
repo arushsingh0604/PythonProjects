@@ -1,10 +1,10 @@
 print("WELCOME TO THE TIP CALCULATOR!!!")
-total_bill = float(input("What was the total bill?: "))
+total_bill = float(input("What was the total bill?:$ "))
 tip = float(input("What was the tip percentage?:"))
 total = total_bill+((tip/100)*total_bill)
 split = int(input("How many people are splitting the bill?:"))
 contribution = total/split
-print(f"The amount each member has to pay is {round(contribution,2)}")
+print(f"The amount each member has to pay is ${round(contribution,2)}")
 
 #process of pulling out a charcater from a string is called subscripting
 #print("Hello"[2])
